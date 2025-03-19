@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mobile-Friendly Tester</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1>📱 Mobile-Friendly Tester</h1>
+    </header>
+
+    <div class="device-controls">
+      <button id="mobileBtn" class="active">Mobile</button>
+      <button id="tabletBtn">Tablette</button>
+    </div>
+
+    <div class="preview-container">
+      <iframe id="previewFrame"></iframe>
+    </div>
+
+    <div class="analysis-section">
+      <h2>Analyse rapide</h2>
+      <ul id="checkList">
+        <li class="check-item" id="viewportCheck">
+          <span class="status">⏳</span> Viewport Meta Tag
+        </li>
+        <li class="check-item" id="textSizeCheck">
+          <span class="status">⏳</span> Taille des textes
+        </li>
+        <li class="check-item" id="touchTargetCheck">
+          <span class="status">⏳</span> Zones tactiles
+        </li>
+      </ul>
+    </div>
+
+    <div class="review-section">
+      <h3>Aimez notre extension ?</h3>
+      <p>Laissez-nous un avis !</p>
+      <a href="https://g.page/r/CaWr6uhau0-hEBM/review" target="_blank" class="review-button">
+        ⭐ Donner un avis sur Google
+      </a>
+    </div>
+  </div>
+  <script src="popup.js"></script>
+</body>
+</html>
